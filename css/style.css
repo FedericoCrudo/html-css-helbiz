@@ -97,6 +97,28 @@ ul.navbar-language :not(li:last-child) a {
   font-size: 18px;
   color: rgb(161, 169, 177);
 }
+#steps {
+  height: 900px;
+}
+#steps  .banner img{
+  background-size: cover;
+  background-repeat: no-repeat;  
+  height: 500px;
+ 
+}
+#steps .row img{
+  width:60%;
+  position: relative;
+}
+#steps .row {
+  height: 400px;
+  line-height: 35px;
+  
+}
+#steps .row h2{
+  font-size: 40px ;
+}
+
 @media screen and (max-width: 992px){
   .jumbo h1 {
     font-size: 26px;
