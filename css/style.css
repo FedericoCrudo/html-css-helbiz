@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size:16px;
+  
 }
 
 a {
@@ -52,15 +53,12 @@ ul.navbar-language :not(li:last-child) a {
   height: 450px;
   position: relative;
 }
-
 .jumbo h1 {
   font-size: 32px;
 }
-
 .jumbo p {
   margin: 10px 0;
 }
-
 .jumbo .testo {
   position: absolute;
   top:50%;
@@ -81,7 +79,6 @@ ul.navbar-language :not(li:last-child) a {
 #prodotti .row  h2 span{
   font-weight: normal; 
   letter-spacing: normal;
-  
 }
 #prodotti .row  a{
   font-size: 25px;
@@ -97,28 +94,111 @@ ul.navbar-language :not(li:last-child) a {
   font-size: 18px;
   color: rgb(161, 169, 177);
 }
-#steps {
-  height: 900px;
-}
 #steps  .banner img{
   background-size: cover;
   background-repeat: no-repeat;  
-  height: 500px;
- 
+  width: 100%;
 }
 #steps .row img{
-  width:60%;
+  width:200px;
   position: relative;
+  display: block;
+  margin: auto;
 }
 #steps .row {
-  height: 400px;
   line-height: 35px;
-  
 }
 #steps .row h2{
   font-size: 40px ;
 }
-
+#mobility .container{
+  background-image: url(../img/scooter.f0a0397.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+#mobility .container .row .wrapper{ 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#mobility  .container .row h2,#mobility  .container .row h3,#mobility  .container .row a,
+#app .container .block-app h2, #app .container .block-app h3,#app .container .block-app a{
+  color: white;
+  font-weight: normal;
+  font-size: 22px;
+}
+#mobility .container .row h2{
+  font-size:40px;
+  font-weight: bolder;
+}
+.bg-color-blue{
+  background-color: #3C5062;
+}
+#app .container .block-app{
+  width:47.4%;
+  height: 650px;
+ margin-bottom: 50px;
+}
+#app .container .block-app.sfondo{
+    background-image: url(../img/iphone-bg.2dae1bd.png);
+    background-repeat: no-repeat;
+    background-position: 50% 130%;
+    }
+  #app .container .block-app h2{
+    font-size:40px ;
+  }
+  #app .container .block-app.sfondo:last-child {
+    background-image: url(../img/city.7c8c928.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+  }
+  #app::after {
+    /* ho usato i cheat, l'immagine sul sito non c'era , però volevo ci fosse ad ogni costo :D */
+    background-image: url(../img/banner-bottom.png); 
+    height: 400px;
+    content: "";
+    display: block;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  footer{
+    
+    background-color: black;
+  }
+  footer .container .footer-header .row {
+    color:white;
+    line-height: 45px;
+  }  
+  footer .container .row h2{
+      font-size: 28px;
+      text-transform: uppercase;
+      letter-spacing: 10px;
+  }
+  footer .container .row ul li{
+    font-size: 15px;
+    color: #999795;
+}
+  footer .container .row ul li:first-child{
+        font-size: 20px;
+        text-transform: uppercase;
+        color:white;
+        font-weight: bolder;
+  }
+  .middle-footer{
+    height: 300px;
+    border: 2px solid grey;
+  }
+  .middle-footer .row i{
+    color:white;
+    font-size: 25px;
+    padding-right:20px ;
+  }
 @media screen and (max-width: 992px){
   .jumbo h1 {
     font-size: 26px;
