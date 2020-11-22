@@ -1,7 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size:16px;
-  
 }
 
 a {
@@ -98,12 +97,14 @@ ul.navbar-language :not(li:last-child) a {
   background-size: cover;
   background-repeat: no-repeat;  
   width: 100%;
+  height: auto;
 }
 #steps .row img{
   width:200px;
   position: relative;
   display: block;
   margin: auto;
+  margin-top: -150px;
 }
 #steps .row {
   line-height: 35px;
@@ -117,6 +118,8 @@ ul.navbar-language :not(li:last-child) a {
   background-size: cover;
   height: 500px;
   position: relative;
+  
+  
 }
 #mobility .container .row .wrapper{ 
     position: absolute;
@@ -139,7 +142,8 @@ ul.navbar-language :not(li:last-child) a {
 #app .container .block-app{
   width:47.4%;
   height: 650px;
- margin-bottom: 50px;
+  margin-bottom: 50px;
+ 
 }
 #app .container .block-app.sfondo{
     background-image: url(../img/iphone-bg.2dae1bd.png);
@@ -168,12 +172,11 @@ ul.navbar-language :not(li:last-child) a {
     background-position: center;
   }
   footer{
-    
     background-color: black;
   }
   footer .container .footer-header .row {
     color:white;
-    line-height: 45px;
+    line-height: 40px;
   }  
   footer .container .row h2{
       font-size: 28px;
@@ -190,17 +193,76 @@ ul.navbar-language :not(li:last-child) a {
         color:white;
         font-weight: bolder;
   }
-  .middle-footer{
-    height: 300px;
-    border: 2px solid grey;
+  footer .middle-footer{
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    line-height: 80px;
   }
-  .middle-footer .row i{
+  footer .middle-footer .row, footer .middle-footer .row a{
     color:white;
-    font-size: 25px;
-    padding-right:20px ;
+  }
+  footer .middle-footer .row a{
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  footer .middle-footer .row i{
+    font-size: 18px;
+    padding-right:15px;
+  }
+  
+  footer .footer-bottom div{
+    display: inline-block;
   }
 @media screen and (max-width: 992px){
   .jumbo h1 {
     font-size: 26px;
   }
+  #app .container .block-app.sfondo{
+    background-size: 80%;
+    background-position: 50% 100%;
+}
+#mobility .container .row .wrapper{
+  padding: 50px;
+}
+#mobility .container .row h3,#mobility .container .row a{
+    font-size: 25px;
+}
+#prodotti .row img{
+  width: 50%;
+}
+}
+@media screen and (max-width: 500px){
+  #prodotti .row img{
+    width: 50%;
+  }
+  #steps .row h2,#mobility .container .row h2{
+    font-size: 30px ;
+  }
+  #steps  .banner img{
+    height: 400px;
+  }
+  #steps .row img{
+    width:100%;
+    margin-top: -100px;
+  }
+  #mobility .container{
+    background-position: left;
+  }
+  #mobility .container .row .wrapper{
+    padding: 50px;
+  }
+  #mobility .container .row h3,#mobility .container .row a{
+      font-size: 25px;
+  }
+  #app .container .block-app{
+    width: 90%;
+    display: block;
+    float: none;
+    margin: 0 auto 50px auto;
+  }
+  #app .container .block-app.sfondo{
+      background-size: 80%;
+      background-position: 50% 100%;
+  }
+ 
 }
