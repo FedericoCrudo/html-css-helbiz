@@ -217,12 +217,25 @@ ul.navbar-language :not(li:last-child) a {
   .jumbo h1 {
     font-size: 26px;
   }
+  #steps .row img{
+    width:50%;
+    margin-top: -120px;
+  }
+  #mobility .container{
+    background-position: left;
+  }
+  #prodotti .row img{
+    width: 50%;
+  }
   #app .container .block-app.sfondo{
     background-size: 80%;
     background-position: 50% 100%;
 }
 #mobility .container .row .wrapper{
   padding: 50px;
+}
+#steps .row h2,#mobility .container .row h2{
+  font-size: 30px ;
 }
 #mobility .container .row h3,#mobility .container .row a{
     font-size: 25px;
@@ -235,34 +248,16 @@ ul.navbar-language :not(li:last-child) a {
   #prodotti .row img{
     width: 50%;
   }
-  #steps .row h2,#mobility .container .row h2{
-    font-size: 30px ;
-  }
-  #steps  .banner img{
-    height: 400px;
-  }
   #steps .row img{
-    width:100%;
-    margin-top: -100px;
+    width:50%;
+    margin-top: -50px;
   }
-  #mobility .container{
-    background-position: left;
-  }
-  #mobility .container .row .wrapper{
-    padding: 50px;
-  }
-  #mobility .container .row h3,#mobility .container .row a{
-      font-size: 25px;
-  }
+ 
   #app .container .block-app{
     width: 90%;
     display: block;
     float: none;
     margin: 0 auto 50px auto;
-  }
-  #app .container .block-app.sfondo{
-      background-size: 80%;
-      background-position: 50% 100%;
   }
  
 }
